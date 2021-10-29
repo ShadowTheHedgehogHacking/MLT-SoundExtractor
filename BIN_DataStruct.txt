@@ -1,0 +1,25 @@
+----
+AudioData associated .bin (Ex sound\AudioDataPlayer.bin)
+
+---HEADER--- BIG ENDIAN
+Size (num of entries) @ 0x24 (int)
+difference of 0x20?
+
+---Entries---
+0x0 | int String .bin offset | (first entry @ 0x28)
+0x4-0x7 | int?? Game SFX Index
+0x7 | byte? Game SFX Index
+0x8 | byte Bank ID
+0x9 | byte Bank SFX Index
+0xA | ?? (not sure)byte Loudness Left Channel
+0xB |  (99% sure) byte Loudness Right Channel
+0xC | ??
+0xD | byte SFX Duration
+0xE | ?? When divisible by 3 changes to menu sfx?
+0xF | ??
+0x10-0x13 | ??
+0x14 | ?? No Sound if greater than 0x80
+0x15 | ??
+0x16 | ??
+0x17 | ??
+size = 0x18 (confirmed)

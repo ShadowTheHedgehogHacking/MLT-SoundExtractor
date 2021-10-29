@@ -1,0 +1,17 @@
+gcaxMLT
+gcaxMLTM
+gcaxMPB
+gcaxMPBW
+
+gcaxMPBP (sub end marker prior to ascii table)
+
+Relevant mlt_Stringref read @ 801f29d4 in USA GC version
+
+
+B0_SYSTEM.mlt can be partially imported as raw audio into Audacity;
+Encoding: Signed 16-bit PCM
+Byte order: Big-endian
+Channels: 1 Channel (Mono)
+Start offset 0
+Amount to import 100 %
+Sample rate: 22050 Hz
